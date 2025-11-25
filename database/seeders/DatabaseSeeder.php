@@ -14,7 +14,10 @@ class DatabaseSeeder extends Seeder
         $this->call([
             ServiceSeeder::class,
             PostSeeder::class,
+<<<<<<< HEAD
             UserSeeder::class,
+=======
+>>>>>>> origin/main
         ]);
     }
 }

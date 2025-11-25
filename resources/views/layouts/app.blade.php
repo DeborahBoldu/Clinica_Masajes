@@ -10,7 +10,11 @@
 </head>
 <body>
   
+<<<<<<< HEAD
   <div id="app">
+=======
+    <div id="app">
+>>>>>>> origin/main
     <div class="container nav">
       <div class="logo">Clínica de Masajes</div>
       <nav>
@@ -19,6 +23,7 @@
           <li><a href="{{ route('services') }}">Servicios</a></li>
           <li><a href="{{ route('blog.index') }}">Blog</a></li>
           <li><a href="{{ url('/admin/posts') }}">ABM</a></li>
+<<<<<<< HEAD
 
           {{-- Zona de autenticación --}}
           @auth
@@ -39,11 +44,14 @@
                   <li><a href="{{ route('register') }}">Registrarse</a></li>
               @endif
           @endauth
+=======
+>>>>>>> origin/main
         </ul>
       </nav>
     </div>
   
 
+<<<<<<< HEAD
     <main class="container">
       @yield('content')
     </main>
@@ -57,6 +65,23 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
   </script>
+=======
+  <main class="container">
+    @yield('content')
+  </main>
+
+  <footer class="footer text-bg-dark text-center">
+       <p>Copyright &copy; Clínica de Masajes — Bienestar y salud</p>
+  </footer>
+  
+    </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+    </script>
+>>>>>>> origin/main
 
 </body>
 </html>

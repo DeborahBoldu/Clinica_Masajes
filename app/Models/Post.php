@@ -9,6 +9,7 @@ class Post extends Model
 {
     use HasFactory;
 
+<<<<<<< HEAD
     protected $fillable = [
         'title',
         'slug',
@@ -29,4 +30,9 @@ class Post extends Model
     {
         return $q->where('is_published', true);
     }
+=======
+    protected $fillable = ['title','slug','image_path','category','excerpt','content','is_published'];
+
+    public function scopePublished($q){ return $q->where('is_published', true); }
+>>>>>>> origin/main
 }

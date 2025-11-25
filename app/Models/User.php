@@ -2,7 +2,10 @@
 
 namespace App\Models;
 
+<<<<<<< HEAD
 use App\Models\Service;
+=======
+>>>>>>> origin/main
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -20,7 +23,10 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+<<<<<<< HEAD
         'role', 
+=======
+>>>>>>> origin/main
     ];
 
     /**
@@ -42,6 +48,7 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+<<<<<<< HEAD
 
     /**
      * Relación muchos a muchos con Service.
@@ -52,4 +59,6 @@ class User extends Authenticatable
                     ->withTimestamps()
                     ->withPivot(['contracted_at', 'status']);
     }
+=======
+>>>>>>> origin/main
 }
