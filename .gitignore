@@ -1,0 +1,43 @@
+# Logs y sistema
+*.log
+.DS_Store
+Thumbs.db
+
+# Entorno
+.env
+.env.backup
+.env.production
+auth.json
+
+# IDEs
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+.phpactor.json
+.phpunit.result.cache
+
+# Dependencias
+/vendor
+/node_modules
+
+# Compilados frontend
+/public/build
+/public/hot
+
+# Storage público y claves
+/public/storage
+/storage/*.key
+/storage/pail
+
+# SQLite (BD local)
+*.sqlite
+
+# Cache de Laravel
+/bootstrap/cache/*.php
+
+# Homestead
+Homestead.json
+Homestead.yaml
